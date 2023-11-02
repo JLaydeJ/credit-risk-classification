@@ -37,6 +37,8 @@ Structure your report by using the report template that Starter_Code.zip include
 
 1. An overview of the analysis: Explain the purpose of this analysis.
 
+  - The purpose of this analysis is to predict whether or not a loan is healthy (low risk) or high-risk. The analysis is based on an individual's loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The logistic regression categorizes between the two types of loans, 1 - which is high-risk loans, and 0 - which is healthy loans. We have taken target(y) as loan_status and every other column as feature(X). Once that was completed we used train-test-split and then used the logistic regression on the original data and created the confusion matrix. Finally we printed the classification report for the model.
+
 2. The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
-3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+4. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
