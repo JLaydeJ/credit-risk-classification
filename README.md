@@ -41,7 +41,7 @@ Structure your report by using the report template that Starter_Code.zip include
 
 2. The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 - 99% balanced accuracy
-- 80 healthy and 67 high-risk loans misclassified
 - Healthy loans: 100% precision; high-risk loans: 85% precision
 
 4. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+  - The logistic regression model is successful at predicting both healthy (0) and high-risk (1) loan labels. It predicts healthy loans with 100% precise and high-risk loans at 85%.
